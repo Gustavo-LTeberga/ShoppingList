@@ -71,6 +71,7 @@
             this.txbProduct.Name = "txbProduct";
             this.txbProduct.Size = new System.Drawing.Size(176, 22);
             this.txbProduct.TabIndex = 3;
+            this.txbProduct.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txbProduct_KeyDown);
             // 
             // btnAdd
             // 
@@ -80,6 +81,7 @@
             this.btnAdd.TabIndex = 4;
             this.btnAdd.Text = "Add";
             this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // libShopping
             // 
@@ -98,6 +100,7 @@
             this.btnDelete.TabIndex = 6;
             this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnDeleteAll
             // 
@@ -107,6 +110,7 @@
             this.btnDeleteAll.TabIndex = 7;
             this.btnDeleteAll.Text = "Delete All";
             this.btnDeleteAll.UseVisualStyleBackColor = true;
+            this.btnDeleteAll.Click += new System.EventHandler(this.btnDeleteAll_Click);
             // 
             // Form1
             // 
